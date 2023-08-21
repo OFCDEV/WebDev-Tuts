@@ -6,3 +6,6 @@
     color: red;
     background-color: rgb(0, 153, 255);
 }
+footer,span{
+    background-color: pink;
+}
