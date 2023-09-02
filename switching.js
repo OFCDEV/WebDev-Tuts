@@ -9,4 +9,4 @@ a = b;
 b = c;
 
 console.log("New value of a is: "+a);
-console.log("New value of b is: "+b)
+console.log("New value of b is: "+b);
