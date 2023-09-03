@@ -2,4 +2,4 @@ var tweet = prompt("Compose your message: ");
 
 var tweetCount = tweet.length;
 
-alert
+alert("You have written "+)
