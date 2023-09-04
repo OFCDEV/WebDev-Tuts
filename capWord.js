@@ -7,3 +7,5 @@ var capLetter = letter1.toUpperCase();
 var restLetter = name.slice(1,name.length);
 
 var capName = capLetter + restLetter ;
+
+alert("Hello "+capName);
