@@ -1,1 +1,1 @@
-alert(prompt)
+alert(prompt("Compose"))
