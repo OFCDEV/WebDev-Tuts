@@ -8,6 +8,6 @@ var restLetter = name.slice(1,name.length);
 
 var smallLetter = restLetter.toLowerCase();
 
-var capName = capLetter + restLetter ;
+var capName = capLetter + samllLetter ;
 
 alert("Hello "+capName);
