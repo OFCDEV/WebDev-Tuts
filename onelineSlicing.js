@@ -1,1 +1,1 @@
-alert(prompt("Compose your message: ").slice)
+alert(prompt("Compose your message: ").slice(0,140))
