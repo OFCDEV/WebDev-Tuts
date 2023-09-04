@@ -6,4 +6,4 @@ var capLetter = letter1.toUpperCase();
 
 var restLetter = name.slice(1,name.length);
 
-var capName = letter1 + restLetter ;
+var capName = capLetter + restLetter ;
