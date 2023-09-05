@@ -1,4 +1,5 @@
 //https://stanford.edu/~cpiech/karel/ide.html --Link to the site
+//http://stanford.edu/program.html#/ --Solution
 
 // function main(){
 //     putBeeper();
