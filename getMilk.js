@@ -1,4 +1,5 @@
-function getMilk() {   
+function getMilk(money) {   
+
     console.log("leaveHouse");
     console.log("moveRight");
     console.log("moveRight");
@@ -8,6 +9,7 @@ function getMilk() {
     console.log("moveUp");
     console.log("moveRight");
     console.log("moveRight");
+    
     console.log("moveLeft");
     console.log("moveLeft");
     console.log("moveDown");
