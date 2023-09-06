@@ -9,7 +9,8 @@ function getMilk(money) {
     console.log("moveUp");
     console.log("moveRight");
     console.log("moveRight");
-    
+
+    var numOfBottles = Math.floor(money / 1.5);
     console.log("moveLeft");
     console.log("moveLeft");
     console.log("moveDown");
