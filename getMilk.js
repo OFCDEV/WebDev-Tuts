@@ -23,3 +23,5 @@ function getMilk(money) {
     console.log("moveLeft");
     console.log("enterHouse");
   }
+
+  getMilk(10);
