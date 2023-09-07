@@ -1,59 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dev Fitness</title>
     <style>
-        /* CSS Reset */
-        body{
-            margin: 0px;
-            border: 0px;
-            background: url(bg.jpg);
-            color: white;
-        }
-        .left{
-            
-            display: inline-block;
-            border: 2px solid red;
-            position: absolute;
-            left: 81px;
-            top: 20px;
-        }
-        .right{
-            position: absolute;
-            right: 81px;
-            top: 20px;
-            display: inline-block;
-            border: 2px solid rgb(43, 111, 70);
-        }
-        .mid{
-            display: block;
-            width: 33%;
-            margin: 20px auto;
-            border: 2px solid rgb(0, 132, 255);
-        }
+      /* CSS Reset */
+      body {
+        margin: 0px;
+        border: 0px;
+        background: url(bg.jpg);
+        color: white;
+      }
+      .left {
+        display: inline-block;
+        border: 2px solid red;
+        position: absolute;
+        left: 81px;
+        top: 20px;
+      }
+      .right {
+        position: absolute;
+        right: 81px;
+        top: 20px;
+        display: inline-block;
+        border: 2px solid rgb(43, 111, 70);
+      }
+      .mid {
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        border: 2px solid rgb(0, 132, 255);
+      }
+      .navbar{
+        display: inline-block;
+      }
+      .navbar li{
+        display: inline-block;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <!-- Left Box for logo -->
-        <div class="left">
-            <ul class="navbar">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Fitness Calculator</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-        <!-- Mid for Nav Menu -->
-        <div class="mid">
-            I am mid
-        </div>
-        <!-- Right for buttons/search bar -->
-        <div class="right">
-            I am right
-        </div>
+      <!-- Left Box for logo -->
+      <div class="left">
+        I am left
+      </div>
+      <!-- Mid for Nav Menu -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Right for buttons/search bar -->
+      <div class="right">I am right</div>
     </header>
-</body>
+  </body>
 </html>
