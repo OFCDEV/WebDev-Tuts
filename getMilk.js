@@ -39,4 +39,4 @@ function getMilk(money) {
     return change;
   }
 
-  getMilk(4);
+ console.log("Here is your "+getMilk(4)+ "change.");
