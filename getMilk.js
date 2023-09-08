@@ -10,8 +10,8 @@ function getMilk(money) {
     console.log("moveRight");
     console.log("moveRight");
 
-    var numOfBottles = Math.floor(money / 1.5);
-    console.log("Buy " +numOfBottles + " number of bottles of Milk.")
+
+    console.log("Buy " +calcBottles(money, 1.5) + " number of bottles of Milk.")
 
     console.log("moveLeft");
     console.log("moveLeft");
@@ -24,4 +24,11 @@ function getMilk(money) {
     console.log("enterHouse");
   }
 
-  getMilk(10);
+  function calcBottles (startingMoney , perBottleCost){
+
+    var numOfBottles = startingMoney / perBottleCost;
+
+    return numOfBottles;  
+  }
+
+  getMilk(4);
