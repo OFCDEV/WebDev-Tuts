@@ -22,13 +22,21 @@ function getMilk(money) {
     console.log("moveLeft");
     console.log("moveLeft");
     console.log("enterHouse");
+
+    return calcChange(money , 1.5);
   }
 
   function calcBottles (startingMoney , perBottleCost){
 
-    var numOfBottles = startingMoney / perBottleCost;
+    var numOfBottles = Math.floor(startingMoney / perBottleCost) ;
 
     return numOfBottles;  
+  }
+  function calcChange(startingMoney , perBottleCost){
+
+    var change = startingMoney % perBottleCost;
+
+    return change;
   }
 
   getMilk(4);
