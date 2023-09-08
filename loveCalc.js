@@ -9,3 +9,10 @@ if(loveScore > 70){
 }else{
     alert("Your love percentage is: " +loveScore+ "%");
 }
+/* 
+Equal to ===
+Not equal to !==
+greater than >
+smaller than <
+greater equal >=
+*/
