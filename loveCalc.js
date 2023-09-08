@@ -15,4 +15,7 @@ Not equal to !==
 greater than >
 smaller than <
 greater equal >=
+And Operator &&
+Or Operator ||
+
 */
