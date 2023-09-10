@@ -14,3 +14,6 @@ function fibonacciSeries(n) {
     }
     return output;
 }
+
+output = fibonacciSeries(5);
+console.log(output);
