@@ -7,4 +7,10 @@ function fibonacciSeries(n) {
     else if(n === 2){
         output = [0,1];
     }
-   
+    else{
+        for(var i =0; i<n ; i++){
+            output = output.push(output[output.length-2] + output[output.length-1]);
+        }
+    }
+    return output;
+}
