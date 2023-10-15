@@ -3,7 +3,7 @@ function bellboyFactory(name,age,hasWorkPermit,languages){
     this.age = age;
     this.hasWorkPermit = hasWorkPermit;
     this.languages = languages;
-    moveSuitCase:void function() {
+    this.moveSuitCase = function() {
         alert("May I take your suitcase?");
     }
 }
