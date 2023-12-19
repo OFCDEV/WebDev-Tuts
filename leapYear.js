@@ -13,3 +13,5 @@ function isLeap(year) {
         return "Not leap year."
     }
 }
+//year = prompt("Enter the year you want to check ");
+console.log(isLeap(2020));
