@@ -1,5 +1,6 @@
 //DOM Manipulation
 
+//Styling Elements
 var title = document.querySelector('#main-heading');
 title.style.color = 'red';
 const listItems = document.querySelectorAll('.list-items');
@@ -9,6 +10,12 @@ for (i = 0; i < listItems.length; i++) {
     
 }
 console.log(listItems);
+
+//Creating Elements
+const ul = document.getElementsByTagName('ul');
+const li = document.createElement('li')
+
+//Adding Element 
 
 
 // var heading = document.getElementById('main-heading');
