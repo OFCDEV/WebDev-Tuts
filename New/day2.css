@@ -1,5 +1,4 @@
-body{
-    background-color: #f1f187;
-    color: #e22626;
-    font-size: 20px;
+h1{
+    border: 3px solid red;
+    border-radius: 12px;
 }

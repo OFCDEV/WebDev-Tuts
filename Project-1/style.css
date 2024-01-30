@@ -1,0 +1,27 @@
+/* body,ul{
+    text-align: center;
+} */
+h1{
+    text-align: center;
+}
+table,th,tr,td {
+    border: 1px solid;
+    width: 30%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+}
+td{
+    text-align: center;
+}
+td:hover{
+    background-color: rgb(72, 242, 72);
+}
+a:hover{
+    color: black;
+}
+nav,a{
+    color: blue;
+    text-decoration: none;
+}
