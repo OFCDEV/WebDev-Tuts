@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flot and clear property</title>
+    <style>
+        .cards img{
+            float: left;
+        }
+        .card{
+            border: 2px solid red;
+            display: flow-root; /*prevents from overflow of the text and image*/
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img width="230px" src="https://imgs.search.brave.com/GhlPSuImC06LVk6Dxa_zezKzrzTvtdOwdu_GVjf2sxg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/aXN0b2NrcGhvdG8u/Y29tL3Jlc291cmNl/cy9pbWFnZXMvUGhv/dG9GVExQL05hdHVy/ZUxhbmRzY2FwZXMt/NTE5NzYwOTg0Lmpw/Zw" alt="">
+        <div class="card">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A adipisci est ullam tempora modi. Iure temporibus soluta, ab earum cumque eos perspiciatis ipsum.</div>
+        <div class="card">card 2</div>
+        <div class="card"> card3</div>
+    </div>
+</body>
+</html>
