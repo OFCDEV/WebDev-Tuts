@@ -1,5 +1,7 @@
 console.log("Hello World")
 
+//document.body.children --> Gives an array of elements present in the body
+
 //let cont = doucment.body.childNodes -->Shows all the child elements including whitespaces as text
 
 //document.body.childNodes[1]--> Accessing the index 1 element
@@ -11,3 +13,12 @@ console.log("Hello World")
 // document.body.firstElementChild.nextElementSibling-->Gives next element of the container
 
 // document.body.firstElementChild.previousElementSibling-->Gives prev element of the container
+
+//document.getElementsByTagName("div")
+
+
+console.log(document.getElementsByClassName("box"))
+
+
+document.querySelector(".box").style.backgroundColor ="red"
+document.querySelectorAll(".box").forEach(e=>{e.style.backgroundColor = "green"})
