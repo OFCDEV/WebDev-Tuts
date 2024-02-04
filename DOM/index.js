@@ -1,4 +1,26 @@
 console.log("Hello World")
+//Exercise:
+    //color the box by random
+let boxes = document.getElementsByClassName("box");
+
+//How to get a random number bet a,b (a is the starting point and b is the end)
+    // Let r be a rand num
+    // a + r(b-a) --> It gives a random number between a to b
+    //Incase of color a=0 and b =255 and r = Math.random()
+    // forumlua--> Math.ceil(0+Math.random()*255)
+
+function getRandColor(){
+    let val1 = Math.ceil(0+Math.random()*255);
+    let val2 = Math.ceil(0+Math.random()*255);
+    let val3 = Math.ceil(0+Math.random()*255);
+
+    return `rgb(${val1},${val2},${val3})`
+}
+
+Array.from(boxes).forEach(e=>{
+    e.style.backgroundColor = getRandColor()
+    e.style.color = getRandColor()
+})
 
 //document.body.children --> Gives an array of elements present in the body
 
@@ -34,6 +56,13 @@ console.log("Hello World")
 // document.querySelector(".box").setAttribute("style","display:flex")
 // let div = document.createElement("div");
 // div.setAttribute("class","created");
+
+// add and remove():
+    //document.querySelector(".conatiner").classList -->Gives a list of classes
+    // document.querySelector(".conatiner").classList.add("red")
+    // document.querySelector(".conatiner").classList.remove("red")
+
+    // document.querySelector(".conatiner").classList.toggle("red")
 
 //Insertion Methods
 
