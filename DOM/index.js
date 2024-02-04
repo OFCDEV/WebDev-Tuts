@@ -16,9 +16,19 @@ console.log("Hello World")
 
 //document.getElementsByTagName("div")
 
+// elementName.matches("CSS prop")
 
-console.log(document.getElementsByClassName("box"))
+// console.log(document.getElementsByClassName("box"))
 
 
-document.querySelector(".box").style.backgroundColor ="red"
-document.querySelectorAll(".box").forEach(e=>{e.style.backgroundColor = "green"})
+// document.querySelector(".box").style.backgroundColor ="red"
+// document.querySelectorAll(".box").forEach(e=>{e.style.backgroundColor = "green"})
+
+// document.querySelector(".box").innerHTML
+// document.querySelector(".box").innerText
+// document.querySelector(".box").getAttributes
+// document.querySelector(".box").getAttribute
+// document.querySelector(".box").attributes
+// document.querySelector(".box").setAttribute("style","display:flex")
+// let div = document.createElement("div");
+// div.setAttribute("class","created");
