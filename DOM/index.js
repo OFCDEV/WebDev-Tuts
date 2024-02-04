@@ -24,6 +24,8 @@ console.log("Hello World")
 // document.querySelector(".box").style.backgroundColor ="red"
 // document.querySelectorAll(".box").forEach(e=>{e.style.backgroundColor = "green"})
 
+//Get and Set methods in DOM
+
 // document.querySelector(".box").innerHTML
 // document.querySelector(".box").innerText
 // document.querySelector(".box").getAttributes
@@ -32,3 +34,28 @@ console.log("Hello World")
 // document.querySelector(".box").setAttribute("style","display:flex")
 // let div = document.createElement("div");
 // div.setAttribute("class","created");
+
+//Insertion Methods
+
+// let div = document.createElement("div") --> create
+// div.innerHTML = "I have been inserted" -->adding
+// div.innerHTML = "<span>Hello</span>"
+// div.setAttribute("class","created")
+// div.body.append(div) or document.querySelector(".container").append(div)
+
+// Mehtods:
+    // node.append(e) --> Append at the end of the node
+    // node.prepend(e) --> Insert at the begining of the node
+    // node.before(e) --> Insert before the node
+    // node.after(e) --> Insert after the node
+    //node.replaceWith(node2)
+
+// Insert Adjacent HTML/Text/Element
+
+    // document.querySelector(".container").insertAdjacentElement("afterend","I am at the end")
+    /*
+     beforebegin-->Insert HTML immediately before element
+     afterbegin -->Insert HTML immediately after element
+     beforeend
+     afterend 
+     */
