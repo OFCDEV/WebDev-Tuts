@@ -21,3 +21,4 @@ document.addEventListener("keydown",(e)=>{
 })
 
 //We can also remove an event by .removeEventListner() method
+
