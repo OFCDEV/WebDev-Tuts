@@ -3,7 +3,7 @@
 async function getData() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve(455);
+      resolve(455);  //455 is a random number
     }, 3500);
   });
 }

@@ -1,0 +1,6 @@
+settle means either resolve or reject
+
+resolve means promise has settled successfully
+
+rehect means promise has not settled successfully
+
