@@ -29,3 +29,17 @@ let prom1 = new Promise((resolve, reject) => {
   p3.then((a)=>{
     console.log(a)
   }).catch((err)=>{console.log(err)});
+
+  //2. Promise.allSettled(promises)-->wait for all promises to settle means it should be both resolve and reject ; returns the array of their results
+
+  let p4 = Promise.allSettled([prom1,prom2])
+  p4.then((a)=>{
+    console.log(a)
+  }).catch((err)=>{console.log(err)});
+
+  //3. Promise.race(promises)-->Waits for the first promise to settle and its result/error becomes the outcome
+
+  let p5 = Promise.race([prom1,prom2])
+  p5.then((a)=>{
+    console.log(a)
+  }).catch((err)=>{console.log(err)});
