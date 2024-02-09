@@ -4,3 +4,10 @@ resolve means promise has settled successfully
 
 rehect means promise has not settled successfully
 
+GET request means simply putting url in browser and accessing the content
+
+POST request means submit files or send data more securely e.g login form
+
+PUT request is used to update data in a server
+
+DELETE request is used to delete data in a server
