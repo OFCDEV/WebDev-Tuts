@@ -12,3 +12,9 @@ try {
 } catch (error) {
     console.log("Nhi hogaa; define kr")
 }
+finally{
+    console.log("Code has been executed.")
+}
+
+
+//If this tryCatch block is in inside a function and the function returns some value then the role of "finally" is imp
