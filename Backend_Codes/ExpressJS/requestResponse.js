@@ -40,3 +40,6 @@ app.get("/api", (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
+
+
+//Sometimes it is getting hard to create new requests for url endlines like /,about,contact etc. This also makes the code file bigger, So to avoid this we will use routing using express
