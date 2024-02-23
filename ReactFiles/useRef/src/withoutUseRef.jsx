@@ -1,16 +1,17 @@
-import { useState,useEffect, useRef } from 'react'
+import { useState,useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  //let a =0; If we do this without using useRef() the value of a will be re-rendered not increasing ..
   
-  const btnref = useRef();
+  let a = 0;
 
   useEffect(() => {
-    console.log(`re-rendering`)
-    btnref.current.style.backgroundColor = 'red';
+    a =a + 1;
+    console.log(`re-rendering..and value of a is ${a}`)
   })
   
 
@@ -26,7 +27,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button ref={btnref} onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
@@ -36,7 +37,6 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <button onClick={()=>{btnref.current.style.display='none'}}>Hide</button>
     </>
   )
 }
