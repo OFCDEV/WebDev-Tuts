@@ -12,6 +12,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.red{
+  background-color: red;
+  color: white;
+  height: 233px;
+  width: 133px;
+}
 
 a {
   font-weight: 500;

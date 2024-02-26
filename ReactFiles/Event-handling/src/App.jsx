@@ -4,30 +4,26 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [name, setName] = useState("devV")
+  const handleClick = ()=>{
+    alert('Hey I am clicked.')
+  }
+  const handleMouse = ()=>{
+    alert('Hey I am a mouse over.')
+  }
+  const handleChange = (e)=>{
+    setName(e.target.value)
+  }
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="button">
+        <button onClick={handleClick}>Click Me</button>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {/* <div className="red" onMouseOver={handleMouse}>
+        I am a red div.
+      </div> */}
+      <input type="text" name='email' value={form.name} onChange={handleChange} />
+      <input type="text" name='phone' value={form.phone} onChange={handleChange} />
     </>
   )
 }
